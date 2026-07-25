@@ -1,0 +1,13 @@
+*.DS_Store
+*.jar
+*.log
+.clj-kondo
+.cpcache
+.lein-env
+.lein-failures
+.lein-repl-history
+.lsp
+.nrepl*
+target
+cljs-test-runner-out
+node_modules

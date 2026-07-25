@@ -1,0 +1,8 @@
+name: CI
+
+on: [push]
+
+jobs:
+  ci:
+    uses: donut-party/shared-workflows/.github/workflows/clojure-lib.yml@main
+    secrets: inherit
